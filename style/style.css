@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-/* font-family: "Work Sans", serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +19,10 @@
   border-radius: 8px;
   background: rgb(82, 195, 3);
   cursor: pointer;
+}
+.btn:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 #hero {
   background: linear-gradient(
@@ -135,3 +139,56 @@
   text-align: center;
   opacity: 0.7;
 }
+
+/*good food related style*/
+
+#upper-last{
+  font-family: Work Sans;
+  justify-items: center;
+  margin-bottom: 150px;
+}
+
+#upper-last .title{
+  color: rgb(16, 16, 16);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.lower-container{
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.food-box{
+  text-align: center;
+}
+.food-img{
+  height: 571px;
+  border-radius: 16px;
+}
+.food-description{
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(16, 16, 16);
+}
+.food-follow{
+  margin-top: 78px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(16, 16, 16);
+}
+.food-icons{
+  margin-top: 62px;
+}
+.single-icon{
+  padding: 25px;
+}
+.single-icon :hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+
